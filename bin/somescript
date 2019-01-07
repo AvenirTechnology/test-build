@@ -1,0 +1,35 @@
+#!/usr/bin/perl -w
+#########################################
+# Avenir|Test SomeScript
+#
+# This script doesn't really do anything
+#
+##########################################
+
+use strict;
+use warnings;
+
+use 5.10.1;
+
+use Avenir::Settle::Date;
+
+
+##########################################
+# functions
+########################################
+
+
+sub do_stuff
+{
+    print "do stuff \n";
+}
+
+sub do_other_stuff
+{
+    print "do other stuff \n";
+}
+
+&do_stuff();
+&do_other_stuff();
+
+exit 0;
